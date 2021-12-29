@@ -1,0 +1,12 @@
+
+apscheduler==3.7.0
+certifi==2020.12.5
+chardet==4.0.0
+dBUtils==2.0
+idna==2.10
+PyMySQL==1.0.2
+pytz==2021.1
+requests==2.25.1
+six==1.15.0
+tzlocal==2.1
+urllib3==1.26.4
