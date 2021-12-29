@@ -14,13 +14,12 @@
 
 
 
-**更多关于Nuclei的详细实例可以在[这里](https://nuclei.projectdiscovery.io/nuclei/get-started/#running-nuclei)找到**
+**如果对你有帮助的话，还请在[这里](https://github.com/CnHack3r/icve_auto_sign/)点个STAR吧**
+
 
 
 ### 许可证
 
 icve_auto_sign使用[MIT许可证](https://github.com/CnHack3r/icve_auto_sign/LICENSE.md)
 
-<h1 align="left">
-  <a href="https://discord.gg/projectdiscovery"><img src="static/Join-Discord.png" width="380" alt="Join Discord"></a> <a href="https://nuclei.projectdiscovery.io"><img src="static/check-nuclei-documentation.png" width="380" alt="Check Nuclei Documentation"></a>
-</h1>
+
