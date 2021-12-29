@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/CnHack3r/icve_auto_sign"><img src="static/header-logo.jpg" width="200px" alt="职教云脚本"></a>
 </h1>
-
+---
 <h2 align="center">职教云 • 云课堂智慧职教自动签到脚本</h2>
 
 
