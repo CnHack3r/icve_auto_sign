@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: DBUtils
+Version: 2.0
+Summary: Database connections for multi-threaded environments.
+Home-page: https://webwareforpython.github.io/DBUtils/
+Author: Christoph Zwerschke
+Author-email: cito@online.de
+License: MIT License
+Download-URL: https://pypi.org/project/DBUtils/
+Project-URL: Documentation, https://webwareforpython.github.io/DBUtils/main.html
+Project-URL: Changelog, https://webwareforpython.github.io/DBUtils/changelog.html
+Project-URL: Issue Tracker, https://github.com/WebwareForPython/DBUtils/issues
+Project-URL: Source Code, https://github.com/WebwareForPython/DBUtils
+Description: DBUtils
+        =======
+        
+        DBUtils is a suite of tools providing solid, persistent and pooled connections
+        to a database that can be used in all kinds of multi-threaded environments.
+        
+        The suite supports DB-API 2 compliant database interfaces
+        and the classic PyGreSQL interface.
+        
+        The current version 2.0 of DBUtils supports Python versions 2.7 and 3.5 to 3.9.
+        
+        The DBUtils home page can be found at https://webwareforpython.github.io/DBUtils/
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
