@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>
+		职教云自动签到系统 - 免费且快速稳定的24h自动签到平台
+	</title>
+	<meta name="description"
+		content="职教云自动签到平台,只需登录后就可以解放双手24小时离线挂机了，系统采用均衡负载方式执行，保证最高效率，为全国职业教育学子打造的一款离线签到神器，操作流程简单，使用非常便捷！。" />
+	<meta name="keywords" content="职教云自动签到平台,云函数自动签到,职教云签,学习通自动签到" />
+	<link rel="stylesheet" type="text/css" href="//www.layuicdn.com/layui/css/layui.css" />
+	<link rel="stylesheet" href="assets/css/style.css" media="all" />
+	<link rel="icon" type="image/png" href="//file.cssun.cn/favicon.ico">
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+	<meta itemprop="image" content="//q.qlogo.cn/headimg_dl?bs=qq&dst_uin=3439230&fid=blog&spec=100" />
+</head>
+
+<body>
+    <!--layui-this-->
+	<ul class="layui-nav layui-bg-green">
+		<li class="layui-nav-item  layui-this">
+			<a href="填写你的QQ链接">
+				联系作者
+			</a>
+		</li>
+						<li class="layui-nav-item ">
+			<a href="填写你的QQ群链接">
+				加入Q群
+			</a>
+		</li>
+
+	</ul>
+	<div class="layer-text" id="yiwang" style="padding:20px 0 10px;">
+		<fieldset class="layui-elem-field layui-field-title">
+			<legend>
+				免费且快速稳定的24h自动签到平台
+			</legend>
+		</fieldset>
+	</div>
+
+	<!--LoginForm-->
+	<div class="zyl_lofo_main">
+		<fieldset class="layui-elem-field layui-field-title zyl_mar_02">
+			<legend>
+				<span class="layui-badge-dot">
+				</span>
+				<span class="layui-badge-dot layui-bg-orange">
+				</span>
+				<span class="layui-badge-dot layui-bg-green">
+				</span>
+				<span class="layui-badge-dot layui-bg-cyan">
+				</span>
+				<span class="layui-badge-dot layui-bg-blue">
+				</span>
+				<span class="layui-badge-dot layui-bg-black">
+				</span>
+				<span class="layui-badge-dot layui-bg-gray">
+				</span>
+
+			</legend>
+
+		</fieldset>
+
+		<div class="layui-row layui-col-space15">
+			<form id='form' class="layui-form zyl_pad_01" action="#" method="post">
+				<div class="layui-col-sm12 layui-col-md12">
+					<div class="layui-form-item">
+						<input type="text" name="userName" lay-verify="required|userName" autocomplete="off"
+							placeholder="请输入你的职教云账号" class="layui-input">
+						<i class="layui-icon layui-icon-username zyl_lofo_icon icon">
+						</i>
+					</div>
+				</div>
+				<div class="layui-col-sm12 layui-col-md12">
+					<div class="layui-form-item">
+						<input type="password" name="userPwd" lay-verify="required|userPwd" autocomplete="off"
+							placeholder="请输入你的职教云密码" class="layui-input">
+						<i class="layui-icon layui-icon-password zyl_lofo_icon icon">
+						</i>
+					</div>
+				</div>
+				<div class="layui-col-sm12 layui-col-md12">
+					<div class="layui-form-item">
+						<input type="number" name="qq" lay-verify="required|qq" autocomplete="off"
+							placeholder="请输入你的QQ(签到提醒需加Q群使用)" class="layui-input">
+						<i class="layui-icon layui-icon-login-qq zyl_lofo_icon icon">
+						</i>
+					</div>
+				</div>
+				<!--<div class="layui-col-sm12 layui-col-md12">-->
+				<!--	<div class="layui-row">-->
+				<!--		<div class="layui-col-xs4 layui-col-sm4 layui-col-md4">-->
+				<!--			<div class="layui-form-item">-->
+				<!--				<input type="number" name="code" id="vercode" lay-verify="required|code"-->
+				<!--					autocomplete="off" placeholder="验证码" class="layui-input" maxlength="4">-->
+				<!--				<i class="layui-icon layui-icon-vercode zyl_lofo_icon icon">-->
+				<!--				</i>-->
+				<!--			</div>-->
+				<!--		</div>-->
+						<!--<div class="layui-col-xs4 layui-col-sm4 layui-col-md4">-->
+						<!--	<div class="zyl_lofo_vercode zylVerCode" onclick="javascript:changeCode()">-->
+						<!--		<img src="assets/code.php" style="width:100px;height:40px;" id="code" />-->
+						<!--	</div>-->
+							<!--<div class="code_tips">-->
+							<!--	<a href="javascript:changeCode()">看不清，换一张</a>-->
+							<!--</div>-->
+				<!--		</div>-->
+				<!--	</div>-->
+				<!--</div>-->
+				<div class="layui-col-sm12 layui-col-md12 layui-anim-scale">
+					<button class="layui-btn layui-btn-fluid" lay-submit="" lay-filter="login">
+						立即提交
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--LoginForm End-->
+	<div class="footer">
+		Xiaoqi
+		<a href="https://beian.miit.gov.cn/#/Integrated/index">
+			《此处填写你的备案号》
+		</a>
+		&nbsp;<a href="https://github.com/CnHack3r/icve_auto_sign">
+			此源码请勿出售
+		</a>
+	</div>
+	<script>
+	//function changeCode() {
+// 			document.getElementById("code").src = "assets/code.php?id=" + Math.random();
+// 		}
+	</script>
+
+	<!--Jquery Js-->
+<script src="http://www.rageframe.com/js/vendor/jquery-2.2.4.min.js"></script>
+	</script>
+	<!--Layui Js-->
+	<script src="//www.layuicdn.com/layui/layui.js">
+	</script>
+	<script>
+		if (Cookies.get('state') == null) {
+			//Cookies.set('state', '1', { expires: 1, path: '' });
+			layer.open({
+				type: 1
+				, title: false //不显示标题栏
+				, closeBtn: false
+				, area: '300px;'
+				, shade: 0.8
+				, id: 'LAY_layuipro' //设定一个id，防止重复弹出
+				, resize: false
+				, btn: ['加入Q群', '不再显示']
+				, btnAlign: 'c'
+				, moveType: 1 //拖拽模式，0或者1
+				, content: '<div style="padding: 50px; line-height: 22px; background-color: #393D49; color: #fff; font-weight: 300;">	此系统为职教云免费公益自动签到，提交账号即可，24小时离线执行，10s监控秒级签到，可无视手势签到，二维码签到，提交时填写真实QQ号以便于qq通知签到消息（乱填直接拉黑账号 永不添加）如果你想关闭此功能，修改密码就可以关闭执行。如有泄露立马关服务器！</div>'
+				, success: function (layero) {
+					var btn = layero.find('.layui-layer-btn');
+					btn.find('.layui-layer-btn0').attr({
+						href: 'QQ群链接'
+						, target: '_blank'
+					});
+				}
+			});
+
+		}
+
+		layui.use(['form'], function () {
+			var form = layui.form;
+			//自定义验证规则
+			form.verify({
+				userName: function (value) {
+					if (value.length < 5) {
+						return '账号至少得5个字符';
+					}
+				}
+				, userPwd: [/^[\S]{6,30}$/, '密码必须6位以上，且不能出现空格']
+			});
+			//监听提交
+			form.on('submit(login)', function (data) {
+				//document.getElementById("code").src = "assets/code.php?id=" + Math.random();
+				//	console.log(data.field);
+				$.ajax({
+					type: "POST",
+					url: "assets/user.php",
+					data: data.field,
+					success: function (data) {
+						layer.alert(JSON.stringify(data[0].result));
+						//console.log(data);
+					},
+					error: function (data) {
+						layer.alert('服务器连接失败');
+					}
+				})
+				return false;
+			});
+		});
+	</script>
+	<!-- Baidu统计代码放在下面  -->
+
+</body>
+
+</html>

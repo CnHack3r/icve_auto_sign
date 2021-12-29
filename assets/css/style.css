@@ -1,0 +1,81 @@
+/* 公共属性 */
+body {
+	font-size: 15px;
+	color: #666
+}
+
+.icon {
+	color: #009688;
+}
+
+
+/* 登陆表单 */
+.zyl_lofo_main {
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 450px;
+	height: 350px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.zyl_lofo_icon {
+	position: absolute;
+	left: 5px;
+	top: 8px;
+	font-size: 20px;
+}
+
+/* 验证码 */
+.zyl_lofo_vercode {
+	line-height: 30px;
+	padding-left: 25px;
+	font-size: 24px;
+}
+
+.code_tips {
+	padding-left: 25px;
+	font-size: 9px;
+}
+
+/* 自适应 */
+@media screen and (max-width: 768px) {
+	.zyl_lofo_main {
+		width: 85%;
+		height: 60%;
+		top: 60%;
+	}
+}
+
+
+/* 覆盖原框架样式 */
+.layui-elem-quote {
+	background-color: inherit !important;
+}
+
+.layui-input,
+.layui-select,
+.layui-textarea {
+	background-color: inherit;
+	padding-left: 30px;
+}
+.footer {
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	background-color: #009688
+}
+
+.content {
+	height: 1800px;
+	width: 100%;
+	text-align: center
+}
