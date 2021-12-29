@@ -8,9 +8,3 @@
 **如果对你有帮助的话，还请在[这里](https://github.com/CnHack3r/icve_auto_sign/)点个STAR吧**
 
 
-
-### 许可证
-
-icve_auto_sign使用[MIT许可证](https://github.com/CnHack3r/icve_auto_sign/LICENSE.md)
-
-
